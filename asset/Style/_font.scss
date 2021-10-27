@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Serif&family=Roboto:wght@300&family=Tinos&display=swap");
+
+@import "media";
+
+/*Colores*/
+:root {
+  --first-color: #1d1d1f;
+  --second-color: #0071e3;
+  --white-color: #fff;
+}
+
+/*Fuente y tipografia*/
+:root {
+  --body-font: "Roboto", sans-serif;
+
+  --biggest-font-size: 3.5rem;
+  --bigger-font-size: 2.25rem;
+  --big-font-size: 1.625rem;
+  --normal-font-size: 0.813rem;
+  --smaller-font-size: 0.75rem;
+
+  @include lg() {
+    --biggest-font-size: 8rem;
+    --bigger-font-size: 4.5rem;
+    --big-font-size: 2.5rem;
+    --normal-font-size: 1rem;
+    --smaller-font-size: 0.938rem;
+  }
+}

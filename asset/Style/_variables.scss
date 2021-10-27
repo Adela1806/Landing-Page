@@ -1,0 +1,14 @@
+$header-height: 3rem;
+
+$font-light: 300;
+$font-regular: 400;
+$font-bold: 700;
+
+/*z index*/
+:root {
+  --z-back: -10;
+  --z-normal: 1;
+  --z-tooltip: 10;
+  --z-fixed: 100;
+  --z-modal: 1000;
+}
