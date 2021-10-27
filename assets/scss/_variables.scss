@@ -1,6 +1,12 @@
-@import url("https://fonts.googleapis.com/css2?family=PT+Serif&family=Roboto:wght@300&family=Tinos&display=swap");
+/*----- VARIABLES CSS Y SASS -----*/
+// Varibles sass
+$header-height: 3rem;
 
-@import "media";
+$font-light: 300;
+$font-regular: 400;
+$font-bold: 700;
+
+/*Variables css*/
 
 /*Colores*/
 :root {
@@ -19,11 +25,20 @@
   --normal-font-size: 0.813rem;
   --smaller-font-size: 0.75rem;
 
-  @include lg() {
+  @media screen and (min-width: 768px) {
     --biggest-font-size: 8rem;
     --bigger-font-size: 4.5rem;
     --big-font-size: 2.5rem;
     --normal-font-size: 1rem;
     --smaller-font-size: 0.938rem;
   }
+}
+
+/*z index*/
+:root {
+  --z-back: -10;
+  --z-normal: 1;
+  --z-tooltip: 10;
+  --z-fixed: 100;
+  --z-modal: 1000;
 }

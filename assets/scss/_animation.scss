@@ -1,0 +1,30 @@
+/*ANIMATION*/
+.airpod1 {
+  animation: airpod1 3s infinite;
+
+  @keyframes airpod1 {
+    50% {
+      transform: translatey(-6%);
+    }
+  }
+}
+.airpod2 {
+  animation: airpod2 3s infinite;
+
+  @keyframes airpod2 {
+    50% {
+      transform: translatey(6%);
+    }
+  }
+}
+
+/*ANIMATION*/
+.airpods {
+  animation: airpods 3s infinite;
+
+  @keyframes airpods {
+    50% {
+      transform: translatey(-6%);
+    }
+  }
+}
